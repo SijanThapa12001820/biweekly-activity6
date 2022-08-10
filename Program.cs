@@ -17,10 +17,10 @@ namespace SydneyHotel
 
         }
         // calulation of room services
-        //Pujan Budathoki
+        //Amit Maharjan
         static double Price(int night, string isRoomService,bool d)
         {
-            double price = 0;
+            double price = 10;
             if ((night > 0) && (night <= 3))
                 price = 100 * night;
             else if ((night > 3) && (night <= 10))
